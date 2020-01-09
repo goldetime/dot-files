@@ -1,0 +1,44 @@
+
+;; ----- smex-history -----
+(
+ web-mode
+ shell
+ rename-file
+ calendar
+ ispell-change-dictionary
+ replace-regexp
+ eval-buffer
+)
+
+;; ----- smex-data -----
+(
+ (eval-buffer . 11)
+ (package-list-packages . 12)
+ (linum-mode . 21)
+ (shell . 71)
+ (Info-search-case-sensitively . 2)
+ (compile . 136)
+ (flyspell-mode . 34)
+ (ispell-hunspell-add-multi-dic . 1)
+ (ispell . 11)
+ (ispell-minor-mode . 1)
+ (replace-regexp . 25)
+ (rename-file . 5)
+ (goto-line . 1)
+ (TeX-insert-dollar . 4)
+ (cdlatex-mode . 1)
+ (ispell-change-dictionary . 118)
+ (kill-some-buffers . 5)
+ (doctor . 1)
+ (sed-mode . 1)
+ (web-mode . 239)
+ (read-color . 3)
+ (eshell . 1)
+ (TeX-clean . 1)
+ (dart-mode . 1)
+ (gradle-mode . 3)
+ (vue-mode . 4)
+ (javascript-mode . 1)
+ (vue-mode-reparse . 1)
+ (calendar . 1)
+)

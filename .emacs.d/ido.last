@@ -1,0 +1,664 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/etc/systemd/" . "system/")
+ ("/etc/" . "systemd/")
+ ("/home/golde/workspace/work/2020/" . "january/")
+ ("/home/golde/workspace/spring/gs-spring-boot/" . "initial/")
+ ("/home/golde/workspace/spring/example-project/src/main/java/mn/invescore/ailab/los/example/" . "model/")
+ ("/home/golde/workspace/work/" . "2020/")
+ ("/home/golde/workspace/convert/" . "metronic/")
+ ("/home/golde/workspace/spring/log4j/src/main/java/mn/invescore/ailab/los/" . "logging/")
+ ("/home/golde/workspace/spring/log4j/src/main/java/mn/invescore/ailab/" . "los/")
+ ("/home/golde/workspace/spring/log4j/src/main/java/mn/invescore/" . "ailab/")
+ ("/home/golde/workspace/spring/log4j/src/main/java/mn/" . "invescore/")
+ ("/home/golde/workspace/spring/log4j/src/main/java/" . "mn/")
+ ("/home/golde/workspace/spring/log4j/src/main/" . "resources/")
+ ("/home/golde/workspace/spring/log4j/src/" . "main/")
+ ("/home/golde/workspace/spring/log4j/" . "src/")
+ ("/home/golde/workspace/spring/example-project/src/main/java/mn/invescore/ailab/los/" . "example/")
+ ("/home/golde/workspace/spring/springboot-change-loglevel-runtime/src/main/java/se/" . "roger/")
+ ("/home/golde/workspace/spring/springboot-change-loglevel-runtime/src/main/java/" . "se/")
+ ("/home/golde/workspace/spring/springboot-change-loglevel-runtime/src/main/" . "java/")
+ ("/home/golde/workspace/spring/springboot-change-loglevel-runtime/src/" . "main/")
+ ("/home/golde/workspace/spring/springboot-change-loglevel-runtime/" . "src/")
+ ("/home/golde/workspace/spring/example-project/src/main/java/mn/invescore/ailab/" . "los/")
+ ("/home/golde/workspace/spring/example-project/src/main/java/mn/invescore/" . "ailab/")
+ ("/home/golde/workspace/spring/example-project/src/main/java/mn/" . "invescore/")
+ ("/home/golde/workspace/spring/example-project/src/main/java/" . "mn/")
+ ("/home/golde/workspace/spring/example-project/src/main/" . "resources/")
+ ("/home/golde/workspace/spring/example-project/src/" . "main/")
+ ("/home/golde/workspace/spring/example-project/" . "src/")
+ ("/home/golde/workspace/spring/" . "example-project/")
+ ("/home/golde/workspace/" . "sandbox/")
+ ("/home/golde/Dropbox/workspace/vuejs/hello-world/src/" . "components/")
+ ("/home/golde/Dropbox/workspace/vuejs/" . "hello-world/")
+ ("/home/golde/Dropbox/workspace/" . "vuejs/")
+ ("/home/golde/development/" . "flutter/")
+ ("/home/golde/flutter/senorita/" . "android/")
+ ("/home/golde/flutter/golde/" . "lib/")
+ ("/home/golde/flutter/" . "senorita/")
+ ("/run/media/golde/rmdisk/" . "django/")
+ ("/run/media/golde/" . "rmdisk/")
+ ("/run/media/" . "golde/")
+ ("/run/" . "media/")
+ ("/home/golde/Mobile/MyApplication3/app/src/main/res/" . "layout/")
+ ("/home/golde/Mobile/MyApplication3/app/src/main/" . "res/")
+ ("/home/golde/Mobile/MyApplication3/app/src/" . "main/")
+ ("/home/golde/Mobile/MyApplication3/app/" . "src/")
+ ("/home/golde/Mobile/MyApplication3/" . "app/")
+ ("/home/golde/Mobile/lab4/app/src/main/res/" . "layout/")
+ ("/home/golde/securedMessageApp/app/src/main/java/com/example/securedmessageapp/" . "Fragments/")
+ ("/home/golde/securedMessageApp/app/src/main/java/com/example/" . "securedmessageapp/")
+ ("/home/golde/securedMessageApp/app/src/main/java/com/" . "example/")
+ ("/home/golde/securedMessageApp/app/src/main/java/" . "com/")
+ ("/home/golde/securedMessageApp/app/src/main/" . "java/")
+ ("/home/golde/securedMessageApp/app/src/" . "main/")
+ ("/home/golde/securedMessageApp/app/" . "src/")
+ ("/home/golde/securedMessageApp/" . "app/")
+ ("/home/golde/Mobile/final/app/src/main/java/mn/num/" . "allinone/")
+ ("/home/golde/Mobile/final/app/src/main/java/mn/" . "num/")
+ ("/home/golde/Mobile/final/app/src/main/java/" . "mn/")
+ ("/home/golde/Mobile/final/app/src/main/" . "java/")
+ ("/home/golde/Mobile/final/app/src/" . "main/")
+ ("/home/golde/Mobile/final/app/" . "src/")
+ ("/home/golde/Mobile/final/" . "app/")
+ ("/home/golde/Dropbox/hicheel4_A/thesis/doc/images/" . "dot/")
+ ("/home/golde/Dropbox/hicheel4_A/seed/project/doc/" . "pdf/")
+ ("/home/golde/Dropbox/hicheel4_A/seed/project/" . "doc/")
+ ("/home/golde/.emacs.d/elpa/" . "auctex-12.1.0/")
+ ("/home/golde/.virtualenvs/venv/lib/python3.8/site-packages/mysql/" . "connector/")
+ ("/home/golde/.virtualenvs/venv/lib/python3.8/site-packages/" . "mysql/")
+ ("/home/golde/.virtualenvs/venv/lib/python3.8/" . "site-packages/")
+ ("/home/golde/.virtualenvs/venv/lib/" . "python3.8/")
+ ("/home/golde/.virtualenvs/venv/" . "lib/")
+ ("/home/golde/.virtualenvs/" . "venv/")
+ ("/home/golde/Mobile/lab10/books/android/app/src/main/java/com/" . "books/")
+ ("/home/golde/Mobile/lab10/books/android/app/src/main/java/" . "com/")
+ ("/home/golde/Mobile/lab10/books/android/app/src/main/" . "java/")
+ ("/home/golde/Mobile/lab10/books/android/app/src/" . "main/")
+ ("/home/golde/Mobile/lab10/books/android/app/" . "src/")
+ ("/home/golde/Mobile/lab10/books/android/" . "app/")
+ ("/home/golde/Downloads/src6/after/" . "screens/")
+ ("/home/golde/Downloads/src6/" . "after/")
+ ("/home/golde/Mobile/lab10/books/" . "screens/")
+ ("/home/golde/Downloads/src4/" . "after/")
+ ("/home/golde/Dropbox/hicheel3_A/web/JS/" . "GBF_JS/")
+ ("/home/golde/Dropbox/hicheel3_A/web/" . "JS/")
+ ("/home/golde/Dropbox/hicheel3_A/" . "web/")
+ ("/home/golde/Mobile/lab10/" . "books/")
+ ("/home/golde/Visual/controlsfx/controlsfx-samples/src/main/java/org/controlsfx/" . "samples/")
+ ("/home/golde/Visual/controlsfx/controlsfx-samples/src/main/java/org/" . "controlsfx/")
+ ("/home/golde/Visual/controlsfx/controlsfx-samples/src/main/java/" . "org/")
+ ("/home/golde/Visual/controlsfx/controlsfx-samples/src/main/" . "java/")
+ ("/home/golde/Visual/controlsfx/controlsfx-samples/src/" . "main/")
+ ("/home/golde/Visual/controlsfx/controlsfx-samples/" . "src/")
+ ("/home/golde/Visual/controlsfx/" . "controlsfx-samples/")
+ ("/home/golde/django-beginners-guide/boards/" . "templatetags/")
+ ("/home/golde/django-beginners-guide/templates/" . "includes/")
+ ("/home/golde/django-beginners-guide/" . "templates/")
+ ("/home/golde/Dropbox/hicheel4_A/thesis/django/mysite/accounts/templates/" . "registration/")
+ ("/home/golde/Dropbox/hicheel4_A/thesis/django/mysite/accounts/" . "templates/")
+ ("/home/golde/Mobile/MyApplication2/app/src/main/java/mn/num/" . "myapplication/")
+ ("/home/golde/Mobile/MyApplication2/app/src/main/java/mn/" . "num/")
+ ("/home/golde/Mobile/MyApplication2/app/src/main/java/" . "mn/")
+ ("/home/golde/Mobile/MyApplication2/app/src/main/" . "java/")
+ ("/home/golde/Mobile/MyApplication2/app/src/" . "main/")
+ ("/home/golde/Mobile/MyApplication2/app/" . "src/")
+ ("/home/golde/Mobile/MyApplication2/" . "app/")
+ ("/home/golde/Mobile/lab9/app/src/main/java/mn/num/" . "telephony/")
+ ("/home/golde/Mobile/lab9/app/src/main/java/mn/" . "num/")
+ ("/home/golde/Mobile/lab9/app/src/main/java/" . "mn/")
+ ("/home/golde/Dropbox/hicheel4_A/thesis/django/mysite/media/" . "__pycache__/")
+ ("/home/golde/Dropbox/hicheel4_A/thesis/django/mysite/mysite/" . "submission_queue/")
+ ("/home/golde/xqueue/" . "xqueue/")
+ ("/home/golde/Mobile/lab9/app/src/main/" . "java/")
+ ("/home/golde/Mobile/lab9/app/src/" . "main/")
+ ("/home/golde/Mobile/lab9/app/" . "src/")
+ ("/home/golde/Mobile/lab9/" . "app/")
+ ("/home/golde/Mobile/lab8/app/src/main/java/mn/num/" . "maps/")
+ ("/home/golde/Mobile/lab8/app/src/main/java/mn/" . "num/")
+ ("/home/golde/Mobile/lab8/app/src/main/java/" . "mn/")
+ ("/home/golde/Mobile/lab8/app/src/main/res/" . "menu/")
+ ("/home/golde/Mobile/lab8/app/src/main/" . "java/")
+ ("/home/golde/Mobile/lab8/app/src/" . "main/")
+ ("/home/golde/Mobile/lab8/app/" . "src/")
+ ("/home/golde/Mobile/lab8/" . "app/")
+ ("/home/golde/Maps/app/src/main/java/mn/num/edu/" . "maps/")
+ ("/home/golde/Maps/app/src/main/java/mn/num/" . "edu/")
+ ("/home/golde/Maps/app/src/main/java/mn/" . "num/")
+ ("/home/golde/Maps/app/src/main/java/" . "mn/")
+ ("/home/golde/Maps/app/src/main/" . "java/")
+ ("/home/golde/Maps/app/src/" . "main/")
+ ("/home/golde/Maps/app/" . "src/")
+ ("/home/golde/Maps/" . "app/")
+ ("/home/golde/Dropbox/hicheel4_A/seed/lab5/" . "doc/")
+ ("/home/golde/Dropbox/hicheel4_A/android/hybrid/react/hello-world/" . "public/")
+ ("/home/golde/Dropbox/hicheel4_A/android/hybrid/react/" . "hello-world/")
+ ("/home/golde/Dropbox/hicheel4_A/thesis/django/mysite/grader/templates/" . "grader/")
+ ("/home/golde/Dropbox/hicheel4_A/thesis/django/mysite/grader/" . "templates/")
+ ("/home/golde/Dropbox/hicheel4_A/android/hybrid/react_native/" . "hello/")
+ ("/home/golde/Dropbox/hicheel4_A/android/hybrid/" . "react_native/")
+ ("/home/golde/Dropbox/hicheel4_A/android/" . "hybrid/")
+ ("/home/golde/Mobile/lab7/app/src/main/java/mn/num/edu/weather/" . "adapters/")
+ ("/home/golde/forecastie/app/src/main/res/" . "values/")
+ ("/home/golde/forecastie/app/src/main/java/cz/martykan/forecastie/" . "tasks/")
+ ("/home/golde/forecastie/app/src/main/java/cz/martykan/" . "forecastie/")
+ ("/home/golde/forecastie/app/src/main/java/cz/" . "martykan/")
+ ("/home/golde/forecastie/app/src/main/java/" . "cz/")
+ ("/home/golde/forecastie/app/src/main/" . "res/")
+ ("/home/golde/forecastie/app/src/" . "main/")
+ ("/home/golde/forecastie/app/" . "src/")
+ ("/home/golde/forecastie/" . "app/")
+ ("/home/golde/Downloads/Mobile/Lab9/Lab9_orshih/app/src/main/java/com/example/student_01/" . "lab9_orshih/")
+ ("/home/golde/Downloads/Mobile/Lab9/Lab9_orshih/app/src/main/java/com/example/" . "student_01/")
+ ("/home/golde/Downloads/Mobile/Lab9/Lab9_orshih/app/src/main/java/com/" . "example/")
+ ("/home/golde/Downloads/Mobile/Lab9/Lab9_orshih/app/src/main/java/" . "com/")
+ ("/home/golde/Downloads/Mobile/Lab9/Lab9_orshih/app/src/main/" . "java/")
+ ("/home/golde/Downloads/Mobile/Lab9/Lab9_orshih/app/src/" . "main/")
+ ("/home/golde/Downloads/Mobile/Lab9/Lab9_orshih/app/" . "src/")
+ ("/home/golde/Downloads/Mobile/Lab9/Lab9_orshih/" . "app/")
+ ("/home/golde/Downloads/Mobile/Lab9/" . "Lab9_orshih/")
+ ("/home/golde/Downloads/Mobile/lab8/Lab8/app/src/main/java/com/example/student_01/" . "lab8/")
+ ("/home/golde/Downloads/Mobile/lab8/Lab8/app/src/main/java/com/example/" . "student_01/")
+ ("/home/golde/Downloads/Mobile/lab8/Lab8/app/src/main/java/com/" . "example/")
+ ("/home/golde/Downloads/Mobile/lab8/Lab8/app/src/main/java/" . "com/")
+ ("/home/golde/Downloads/Mobile/lab8/Lab8/app/src/main/" . "java/")
+ ("/home/golde/Downloads/Mobile/lab8/Lab8/app/src/" . "main/")
+ ("/home/golde/Downloads/Mobile/lab8/Lab8/app/" . "src/")
+ ("/home/golde/Downloads/Mobile/lab8/Lab8/" . "app/")
+ ("/home/golde/Downloads/Mobile/lab8/" . "Lab8/")
+ ("/home/golde/Downloads/Mobile/" . "Lab9/")
+ ("/home/golde/Mobile/lab7/app/src/main/java/mn/num/edu/" . "weather/")
+ ("/home/golde/Mobile/lab7/app/src/main/java/mn/num/" . "edu/")
+ ("/home/golde/Mobile/lab7/app/src/main/java/mn/" . "num/")
+ ("/home/golde/Mobile/lab7/app/src/main/java/" . "mn/")
+ ("/home/golde/Mobile/lab7/app/src/main/res/" . "layout/")
+ ("/home/golde/Mobile/lab7/app/src/main/" . "res/")
+ ("/home/golde/Mobile/lab7/app/src/" . "main/")
+ ("/home/golde/Mobile/lab7/app/" . "src/")
+ ("/home/golde/Mobile/lab7/" . "app/")
+ ("/home/golde/Dropbox/hicheel4_A/thesis/doc/" . "pdf/")
+ ("/home/golde/Dropbox/latexPPT/ochroo/" . "lec3/")
+ ("/home/golde/Dropbox/latexPPT/" . "ochroo/")
+ ("/home/golde/Dropbox/hicheel3_B/SA/" . "lab2/")
+ ("/var/local/lib/isolate/0/" . "box/")
+ ("/var/local/lib/isolate/" . "0/")
+ ("/var/local/lib/" . "isolate/")
+ ("/var/local/" . "lib/")
+ ("/var/" . "local/")
+ ("/home/golde/Dropbox/python/" . "exam/")
+ ("/home/golde/cms/cms/server/admin/" . "handlers/")
+ ("/home/golde/cms/cms/server/" . "admin/")
+ ("/home/golde/cms/" . "cms/")
+ ("/home/golde/upload-example/mysite/" . "core/")
+ ("/home/golde/upload-example/" . "mysite/")
+ ("/home/golde/Dropbox/hicheel4_A/thesis/django/mysite/" . "media/")
+ ("/home/golde/Dropbox/hicheel4_A/thesis/django/" . "mysite/")
+ ("/home/golde/django-upload-example/mysite/" . "core/")
+ ("/home/golde/django-upload-example/" . "mysite/")
+ ("/home/golde/cms/cms/" . "server/")
+ ("/home/golde/Dropbox/hicheel4_A/visual/Learn/src/" . "sample/")
+ ("/home/golde/Dropbox/hicheel4_A/visual/Learn/" . "src/")
+ ("/home/golde/Mobile/lab6/app/src/main/java/mn/num/edu/" . "fragment/")
+ ("/home/golde/Mobile/lab6/app/src/main/java/mn/num/" . "edu/")
+ ("/home/golde/Mobile/lab6/app/src/main/java/mn/" . "num/")
+ ("/home/golde/Mobile/lab6/app/src/main/java/" . "mn/")
+ ("/home/golde/Mobile/lab6/app/" . "src/")
+ ("/home/golde/Mobile/lab6/" . "app/")
+ ("/home/golde/Mobile/lab6/app/src/main/res/" . "layout/")
+ ("/home/golde/Mobile/lab6/app/src/main/" . "java/")
+ ("/home/golde/Mobile/lab6/app/src/" . "main/")
+ ("/home/golde/Dropbox/translate/" . "clrs3e-text/")
+ ("/home/golde/Dropbox/hicheel4_A/thesis/" . "doc/")
+ ("/home/golde/Dropbox/hicheel4_A/visual/cross/src/" . "sample/")
+ ("/home/golde/Dropbox/hicheel4_A/visual/cross/" . "src/")
+ ("/home/golde/Visual/AddressApp/src/" . "sample/")
+ ("/home/golde/Visual/AddressApp/" . "src/")
+ ("/home/golde/Mobile/lab5/app/src/main/java/mn/num/edu/" . "myapp/")
+ ("/home/golde/Mobile/lab5/app/src/main/java/mn/num/" . "edu/")
+ ("/home/golde/Mobile/lab5/app/src/main/java/mn/" . "num/")
+ ("/home/golde/Mobile/lab5/app/src/main/java/" . "mn/")
+ ("/home/golde/Mobile/lab5/app/src/main/" . "java/")
+ ("/home/golde/Mobile/lab5/app/src/" . "main/")
+ ("/home/golde/Mobile/lab5/app/" . "src/")
+ ("/home/golde/Mobile/lab5/" . "app/")
+ ("/home/golde/Visual/lab4/src/" . "sample/")
+ ("/home/golde/Visual/lab4/" . "src/")
+ ("/home/golde/Mobile/MyApplication/app/src/" . "main/")
+ ("/home/golde/Mobile/MyApplication/app/" . "src/")
+ ("/home/golde/Mobile/MyApplication/" . "app/")
+ ("/home/golde/Dropbox/hicheel4_A/visual/lab6/src/" . "sample/")
+ ("/home/golde/Dropbox/hicheel4_A/visual/lab6/" . "src/")
+ ("/home/golde/django/mysite/" . "grader/")
+ ("/home/golde/django/" . "mysite/")
+ ("/home/golde/Mobile/data/app/src/main/java/mn/num/edu/" . "myapplication/")
+ ("/home/golde/Mobile/data/app/src/main/java/mn/num/" . "edu/")
+ ("/home/golde/Mobile/data/app/src/main/java/mn/" . "num/")
+ ("/home/golde/Mobile/data/app/src/main/java/" . "mn/")
+ ("/home/golde/Mobile/data/" . "app/")
+ ("/home/golde/Mobile/gnu/app/src/main/java/mn/num/edu/gnu/database/user/" . "model/")
+ ("/home/golde/Mobile/gnu/app/src/main/java/mn/num/edu/gnu/database/" . "user/")
+ ("/home/golde/Mobile/gnu/app/src/main/java/mn/num/edu/gnu/" . "database/")
+ ("/home/golde/Mobile/gnu/app/src/main/java/mn/num/edu/" . "gnu/")
+ ("/home/golde/Mobile/gnu/app/src/main/java/mn/num/" . "edu/")
+ ("/home/golde/Mobile/gnu/app/src/main/java/mn/" . "num/")
+ ("/home/golde/Mobile/gnu/app/src/main/java/" . "mn/")
+ ("/home/golde/Mobile/gnu/app/src/main/" . "java/")
+ ("/home/golde/Mobile/gnu/app/src/" . "main/")
+ ("/home/golde/Mobile/gnu/app/" . "src/")
+ ("/home/golde/Mobile/gnu/" . "app/")
+ ("/home/golde/Mobile/data/app/src/main/res/" . "layout/")
+ ("/home/golde/Mobile/data/app/src/main/" . "res/")
+ ("/home/golde/Mobile/data/app/src/" . "main/")
+ ("/home/golde/Mobile/data/app/" . "src/")
+ ("/home/golde/NewPipe/app/src/main/java/org/schabi/newpipe/" . "database/")
+ ("/home/golde/Mobile/DataBase/app/src/main/java/mn/num/edu/database/db/" . "user/")
+ ("/home/golde/Mobile/DataBase/app/src/main/java/mn/num/edu/database/" . "db/")
+ ("/home/golde/Mobile/DataBase/app/src/main/java/mn/num/edu/database/db/user/" . "dao/")
+ ("/home/golde/NewPipe/app/src/main/java/org/schabi/" . "newpipe/")
+ ("/home/golde/NewPipe/app/src/main/java/org/" . "schabi/")
+ ("/home/golde/NewPipe/app/src/main/java/com/grack/" . "nanojson/")
+ ("/home/golde/NewPipe/app/src/main/java/com/" . "grack/")
+ ("/home/golde/NewPipe/app/src/main/java/" . "org/")
+ ("/home/golde/NewPipe/app/src/" . "main/")
+ ("/home/golde/NewPipe/app/" . "src/")
+ ("/home/golde/NewPipe/" . "app/")
+ ("/home/golde/Mobile/DataBase/app/src/main/res/" . "layout/")
+ ("/home/golde/Mobile/DataBase/app/src/main/java/mn/num/edu/" . "database/")
+ ("/home/golde/Mobile/DataBase/app/src/main/java/mn/num/" . "edu/")
+ ("/home/golde/Mobile/DataBase/app/src/main/java/mn/" . "num/")
+ ("/home/golde/Mobile/DataBase/app/src/main/java/" . "mn/")
+ ("/home/golde/Mobile/DataBase/app/src/main/" . "java/")
+ ("/home/golde/Mobile/DataBase/app/src/" . "main/")
+ ("/home/golde/Mobile/DataBase/app/" . "src/")
+ ("/home/golde/Mobile/DataBase/" . "app/")
+ ("/home/golde/Mobile/lab4/app/src/main/java/mn/num/edu/" . "authentication/")
+ ("/home/golde/Mobile/lab4/app/src/main/java/mn/num/" . "edu/")
+ ("/home/golde/Mobile/lab4/app/src/main/java/mn/" . "num/")
+ ("/home/golde/Mobile/lab4/app/src/main/java/" . "mn/")
+ ("/home/golde/Mobile/lab4/app/src/main/" . "res/")
+ ("/home/golde/Mobile/lab4/app/src/" . "main/")
+ ("/home/golde/Mobile/lab4/app/" . "src/")
+ ("/home/golde/Mobile/lab4/" . "app/")
+ ("/home/golde/Mobile/Authentication/app/src/main/java/mn/num/edu/" . "authentication/")
+ ("/home/golde/Mobile/Authentication/app/src/main/java/mn/num/" . "edu/")
+ ("/home/golde/Mobile/Authentication/app/src/main/java/mn/" . "num/")
+ ("/home/golde/Mobile/Authentication/app/src/main/java/" . "mn/")
+ ("/home/golde/Mobile/Authentication/app/src/main/" . "java/")
+ ("/home/golde/Mobile/Authentication/app/src/" . "main/")
+ ("/home/golde/Mobile/Authentication/app/" . "src/")
+ ("/home/golde/Mobile/Authentication/" . "app/")
+ ("/home/golde/Downloads/mtpro2/texmf/doc/fonts/" . "mtpro2/")
+ ("/home/golde/Downloads/mtpro2/texmf/doc/" . "fonts/")
+ ("/home/golde/Downloads/mtpro2/texmf/" . "doc/")
+ ("/home/golde/Downloads/mtpro2/" . "templates/")
+ ("/home/golde/Downloads/" . "tmp/")
+ ("/home/golde/doc/texmf/tex/latex/" . "mtpro2/")
+ ("/home/golde/doc/texmf/tex/" . "latex/")
+ ("/home/golde/doc/texmf/doc/fonts/" . "mtpro2/")
+ ("/home/golde/doc/texmf/doc/" . "fonts/")
+ ("/home/golde/doc/texmf/" . "tex/")
+ ("/home/golde/doc/" . "texmf/")
+ ("/home/golde/Dropbox/hicheel4_A/visual/lab5/src/" . "view/")
+ ("/home/golde/Dropbox/hicheel4_A/visual/lab5/" . "src/")
+ ("/tmp/" . "systemd-private-1f1e0ad862fe4f6ead6b1b128e1d1adc-colord.service-BVJ5hg/")
+ ("/" . "etc/")
+ ("/home/golde/Visual/lab3/src/" . "sample/")
+ ("/home/golde/Visual/lab3/" . "src/")
+ ("/home/golde/Visual/" . "lab4/")
+ ("/home/" . "golde/")
+ ("/home/golde/Mobile/lab3/app/src/main/res/" . "menu/")
+ ("/home/golde/Mobile/lab3/app/src/main/java/mn/num/edu/activity/" . "rating/")
+ ("/home/golde/Mobile/lab3/app/src/main/java/mn/num/edu/" . "activity/")
+ ("/home/golde/Mobile/lab3/app/src/main/java/mn/num/" . "edu/")
+ ("/home/golde/Mobile/lab3/app/src/main/java/mn/" . "num/")
+ ("/home/golde/Mobile/lab3/app/src/main/java/" . "mn/")
+ ("/home/golde/Mobile/lab3/app/src/main/" . "java/")
+ ("/home/golde/Mobile/lab3/app/src/" . "main/")
+ ("/home/golde/Mobile/lab3/app/" . "src/")
+ ("/home/golde/Mobile/lab3/" . "app/")
+ ("/home/golde/Mobile/" . "data/")
+ ("/home/golde/MyApplication2/app/src/main/java/mn/num/edu/" . "myapplication/")
+ ("/home/golde/MyApplication2/app/src/main/java/mn/num/" . "edu/")
+ ("/home/golde/MyApplication2/app/src/main/java/mn/" . "num/")
+ ("/home/golde/MyApplication2/app/src/main/java/" . "mn/")
+ ("/home/golde/MyApplication2/app/src/main/res/" . "layout/")
+ ("/home/golde/MyApplication2/app/src/main/" . "java/")
+ ("/home/golde/MyApplication2/app/src/" . "main/")
+ ("/home/golde/MyApplication2/app/" . "src/")
+ ("/home/golde/MyApplication2/" . "app/")
+ ("/home/golde/.emacs.d/elisp/" . "julia/")
+ ("/home/golde/.emacs.d/" . "elpa/")
+ ("/home/golde/Dropbox/hicheel4_A/visual/lab4/RadioButton/src/" . "sample/")
+ ("/home/golde/Dropbox/hicheel4_A/visual/lab4/RadioButton/" . "src/")
+ ("/home/golde/Dropbox/hicheel4_A/visual/SimpleCalculator/src/" . "sample/")
+ ("/home/golde/Dropbox/hicheel4_A/visual/SimpleCalculator/" . "src/")
+ ("/home/golde/Dropbox/hicheel4_A/visual/lab4/src/" . "sample/")
+ ("/home/golde/Dropbox/hicheel4_A/visual/lab4/" . "src/")
+ ("/home/golde/Dropbox/hicheel4_A/visual/" . "final/")
+ ("/home/golde/Payroll/src/" . "sample/")
+ ("/home/golde/Payroll/" . "src/")
+ ("/home/golde/Lab3/app/src/main/res/" . "values/")
+ ("/home/golde/Lab3/app/src/main/java/mn/num/edu/" . "activities/")
+ ("/home/golde/Lab3/app/src/main/java/mn/num/" . "edu/")
+ ("/home/golde/Lab3/app/src/main/java/mn/" . "num/")
+ ("/home/golde/Lab3/app/src/main/java/" . "mn/")
+ ("/home/golde/Lab3/app/src/main/" . "res/")
+ ("/home/golde/Lab3/app/src/" . "main/")
+ ("/home/golde/Lab3/app/" . "src/")
+ ("/home/golde/Lab3/" . "app/")
+ ("/home/golde/Calculator/app/src/main/java/mn/num/edu/" . "calculator/")
+ ("/home/golde/Calculator/app/src/main/java/mn/num/" . "edu/")
+ ("/home/golde/Calculator/app/src/main/java/mn/" . "num/")
+ ("/home/golde/Calculator/app/src/main/java/" . "mn/")
+ ("/home/golde/Calculator/app/src/main/" . "java/")
+ ("/home/golde/Calculator/app/" . "src/")
+ ("/home/golde/Calculator/" . "app/")
+ ("/home/golde/Calculator/app/src/" . "main/")
+ ("/home/golde/Dropbox/hicheel3_B/java/lab7/ger/" . "g4/")
+ ("/home/golde/Dropbox/hicheel3_B/java/lab7/angi/" . "a1/")
+ ("/home/golde/Dropbox/hicheel3_B/java/lab7/" . "ger/")
+ ("/home/golde/Dropbox/hicheel3_B/java/lab5/angi/" . "a4/")
+ ("/home/golde/Dropbox/hicheel3_B/java/lab5/" . "ger/")
+ ("/home/golde/Dropbox/hicheel3_B/java/lab11/angi/" . "a1/")
+ ("/home/golde/Dropbox/hicheel3_B/java/lab11/" . "angi/")
+ ("/home/golde/Dropbox/hicheel3_B/java/" . "lab7/")
+ ("/home/golde/Dropbox/hicheel3_B/" . "SA/")
+ ("/home/golde/Dropbox/hicheel4_A/seed/lab1/" . "seed_labs/")
+ ("/home/golde/Dropbox/hicheel4_A/seed/" . "project/")
+ ("/home/golde/Dropbox/hicheel4_A/" . "visual/")
+ ("/home/golde/Dropbox/" . "gittest/")
+ ("/home/golde/NewPipe/app/src/main/res/" . "menu/")
+ ("/home/golde/NewPipe/app/src/main/" . "java/")
+ ("/home/golde/org.schabi.newpipe_760_src.tar.gz/app/src/androidTest/java/org/schabi/newpipe/" . "report/")
+ ("/home/golde/org.schabi.newpipe_760_src.tar.gz/app/src/androidTest/java/org/schabi/" . "newpipe/")
+ ("/home/golde/org.schabi.newpipe_760_src.tar.gz/app/src/androidTest/java/org/" . "schabi/")
+ ("/home/golde/org.schabi.newpipe_760_src.tar.gz/app/src/androidTest/java/" . "org/")
+ ("/home/golde/org.schabi.newpipe_760_src.tar.gz/app/src/androidTest/" . "java/")
+ ("/home/golde/org.schabi.newpipe_760_src.tar.gz/app/src/" . "androidTest/")
+ ("/home/golde/org.schabi.newpipe_760_src.tar.gz/app/" . "src/")
+ ("/home/golde/org.schabi.newpipe_760_src.tar.gz/" . "app/")
+ ("/home/golde/AndroidStudioProjects/MyApplication/app/src/main/res/" . "layout/")
+ ("/home/golde/AndroidStudioProjects/MyApplication/app/src/main/" . "res/")
+ ("/home/golde/AndroidStudioProjects/MyApplication/app/src/" . "main/")
+ ("/home/golde/AndroidStudioProjects/MyApplication/app/" . "src/")
+ ("/home/golde/AndroidStudioProjects/MyApplication/" . "app/")
+ ("/home/golde/AndroidStudioProjects/" . "MyApplication/")
+ ("/home/golde/" . "workspace/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/etc/systemd/system/"
+ "/home/golde/"
+ "/home/golde/workspace/sandbox/"
+ "/home/golde/workspace/convert/metronic/"
+ "/home/golde/tmp/"
+ "/home/golde/workspace/spring/example-project/src/main/resources/"
+ "/home/golde/workspace/spring/example-project/src/main/java/mn/invescore/ailab/los/example/"
+ "/home/golde/workspace/spring/log4j/src/main/resources/"
+ "/home/golde/workspace/spring/log4j/src/main/java/mn/invescore/ailab/los/logging/"
+ "/home/golde/workspace/work/2020/january/"
+ "/home/golde/workspace/work/2020_01_07/"
+ "/home/golde/Downloads/"
+ "/home/golde/workspace/spring/"
+ "/home/golde/workspace/spring/log4j/"
+ "/home/golde/workspace/spring/gs-spring-boot/initial/"
+ "/home/golde/workspace/work/2020_01_06/"
+ "/home/golde/workspace/spring/example-project/src/main/java/mn/invescore/ailab/los/example/model/"
+ "/home/golde/workspace/work/2019_01_06/"
+ "/home/golde/.emacs.d/"
+ "/home/golde/workspace/convert/"
+ "/home/golde/workspace/spring/springboot-change-loglevel-runtime/src/main/java/se/roger/"
+ "/home/golde/workspace/spring/springboot-change-loglevel-runtime/"
+ "/home/golde/workspace/spring/example-project/"
+ "/home/golde/Dropbox/gittest/"
+ "/home/golde/Dropbox/workspace/vuejs/method2/"
+ "/home/golde/Dropbox/workspace/vuejs/hello-world/src/"
+ "/home/golde/Dropbox/workspace/vuejs/hello-world/"
+ "/home/golde/Dropbox/workspace/"
+ "/home/golde/Dropbox/workspace/vuejs/hello-world/src/components/"
+ "/tmp/"
+ "/home/golde/Dropbox/translate/clrs3e-text/"
+ "/home/golde/Dropbox/hicheel4_A/visual/final/"
+ "/home/golde/Dropbox/hicheel4_A/thesis/doc/pdf/"
+ "/home/golde/Dropbox/mstr_thesis/"
+ "/home/golde/Dropbox/m_thesis/"
+ "/home/golde/Dropbox/backup/"
+ "/home/golde/Visual/lab4/src/sample/"
+ "/home/golde/Visual/lab4/src/midterm/"
+ "/home/golde/flutter/senorita/android/"
+ "/home/golde/flutter/senorita/lib/"
+ "/home/golde/flutter/golde/lib/"
+ "/home/golde/Downloads/tmp/"
+ "/home/golde/Dropbox/hicheel4_A/seed/project/doc/pdf/"
+ "/home/golde/securedMessageApp/app/src/main/java/com/example/securedmessageapp/"
+ "/home/golde/Dropbox/hicheel4_A/visual/"
+ "/home/golde/Visual/"
+ "/home/golde/Dropbox/latexPPT/ochroo/lec3/"
+ "/run/media/golde/rmdisk/django/"
+ "/home/golde/Dropbox/hicheel4_A/thesis/django/"
+ "/home/golde/Dropbox/hicheel4_A/thesis/doc/ppt/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "foo.service"
+ ".wget-hsts"
+ "README.md"
+ "style.css"
+ "idea.txt"
+ "ҮЦТХТ-Мөнгө-хүссэн-өргөдөл.html"
+ "template.html"
+ "ATT-mongo_huseh_orgodol.html"
+ "application.properties"
+ "ExampleProjectApplication.java"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/etc/systemd/system/" (24085 35451 399007 49000) "getty.target.wants/" "display-manager.service" "dbus-org.freedesktop.nm-dispatcher.service" "netctl@Univision_10C8_5G.service.d/" "./" "../" "foo.service" "sys-subsystem-net-devices-wlp1s0.device.wants/" "network-online.target.wants/" "dbus-org.freedesktop.timesync1.service" "dbus-org.wicd.daemon.service" "sysinit.target.wants/" "multi-user.target.wants/")
+
+ ("/etc/systemd/" (24035 52280 92114 913000) "journal-upload.conf" "logind.conf" "user.conf" "system/" "user/" "./" "../" "pstore.conf" "sleep.conf" "resolved.conf" "network/" "timesyncd.conf" "networkd.conf" "coredump.conf" "journal-remote.conf" "journald.conf" "system.conf")
+
+ ("/etc/" (24085 32780 34580 132000) "kernel/" "ifplugd/" "resolvconf.conf" "openldap/" "nanorc" ".pwd.lock" "glusterfs/" "ndctl/" "java11-openjdk/" "sasl2/" "passwd-" "mime.types" "passwd" "group" "dkms/" "pkcs11/" "os-release" "vimrc" "libaudit.conf" "sensors.d/" "pulse/" "wpa_supplicant/" "ssh/" "systemd/" "libva.conf" "modprobe.d/" "localtime" "nscd.conf" "local.gen" "sudoers" "vdpau_wrapper.cfg" "colordiffrc" "fonts/" "libao.conf" "resolv.conf" "mkinitcpio.conf" "papersize" "environment" "libvirt/" "wgetrc" "rc_keymaps/" "netconfig" "texmf/" "mke2fs.conf" "fpc.cfg" "locale.conf" "audit/" "sudoers.d/" "makepkg.conf" "gconf/" "xattr.conf" "securetty" "netctl/" "bindresvport.blacklist" "tmpfiles.d/" "request-key.d/" "vde/" "ethertypes" "rc_maps.cfg" "fstab" "gtk-3.0/" "vbox/" "signond.conf" "arch-release" "libpaper.d/" "java-openjdk/" "NetworkManager/" "fppkg.cfg" "./" "group-" "dhcpcd.conf" "mpd.conf" "fppkg/" "ld.so.cache" "udev/" "pam.d/" "UPower/" "pipewire/" "gai.conf" "../" "profile.d/" "slsh.rc" "ssl/" "xinetd.d/" "sysctl.d/" "nsswitch.conf" "shells" "dbus-1/" "gshadow-" "rhashrc" "motd" "pacman.conf" "fuse.conf" "rygel.conf" "udisks2/" "gshadow" "machine-id" ".updated" "nginx/" "logrotate.conf" "resolv.conf.bak" "pacman.d/" "libreoffice/" "brltty.conf" "binfmt.d/" "initcpio/" "hostname" "dleyna-renderer-service.conf" "bash.bashrc" "gdm/" "dconf/" "sane.d/" "krb5.conf" "httpd/" "crypttab" "services" "libblockdev/" "ca-certificates/" "polkit-1/" "logrotate.d/" "host.conf" "grub.d/" "ImageMagick-7/" "iptables/" "java-8-openjdk/" "brlapi.key" "default/" "healthd.conf" "asound.conf" "tor/" "login.defs" "hosts" "colordiffrc-lightbg" "security/" "protocols" "issue" "cifs-utils/" "profile" "openvpn/" "mdadm.conf" "lvm/" "skel/" "xdg/" "ImageMagick-6/" "request-key.conf" "ts.conf" "shadow-" "gssapi_mech.conf" "conf.d/" "sensors3.conf" "wicd/" "alsa/" "depmod.d/" "shadow" "mtools.conf" "dleyna-server-service.conf" "vde2/" "bluetooth/" "mtab" "ld.so.conf" "gemrc" "ld.so.conf.d/" "mkinitcpio.d/" "inputrc" "avahi/" "locale.gen" "bash.bash_logout" "mail.rc" "geoclue/" "mailcap" "e2scrub.conf" "X11/" "libnl/" "vconsole.conf" "modules-load.d/" "speech-dispatcher/" "audisp/" "gtk-2.0/" "trusted-key.key" "rpc" "man_db.conf" "iproute2/")
+
+ ("/home/golde/" (24085 35384 440737 486000) "forecastie/" "Pictures/" "derandom/" "AndroidStudio/" "Visual/" ".psql_history" "Haukv1/" "NewPipe/" "django/" ".mozilla/" "sol.sh" "sutils/" ".xinitrc" "clrs3e-text/" ".wallpapers/" "package-lock.json" "IdeaProjects/" "bar/" "Dropbox/" ".bash_history" ".emacs.d/" ".Xauthority" ".IdeaIC2019.2/" "amina/" ".local/" "yarn.lock" ".atom/" ".lesshst" ".gnupg/" "apk/" "Payroll/" "bak/" "TestMenu/" ".flutter_tool_state" "tmp/" "HowManyOnClick/" ".AndroidStudio3.5/" "development/" "doc/" "Documents/" ".bashrc" "flutter/" "School-Management-System-JavaFX/" "package-query/" ".java/" "node_modules/" ".dropbox-dist/" ".react-native-cli/" ".wget-hsts" ".pki/" ".bash/" "./" ".thunderbird/" ".esd_auth" ".m2/" ".a" ".vuerc" "../" "key.jks" ".virtualenvs/" "AndroidStudioProjects/" ".dropbox/" ".viminfo" ".vimrc" "Templates/" ".bash_profile" "input_output_design.odt" "back.zip" ".config/" "Public/" ".tern-config" "Desktop/" "note.jpg" "Android/" ".vim/" ".gradle/" ".wakatime.cfg" "dot-files/" ".texlive/" ".sqlite_history" "chatenc/" ".gphoto/" "probid/" "upload-example/" "django-beginners-guide/" ".cache/" "jsoup/" "xdo/" "Maps/" "myproject/" "xtitle/" "cms/" "grader/" "MyApplication2/" ".yarnrc" "VirtualBox VMs/" ".npm/" ".fehbg" ".wakatime.data" "PycharmProjects/" "google" ".android/" ".vscode-oss/" ".babel.json" ".ssh/" "Mobile/" "Downloads/" ".bash_logout" "securedMessageApp/" "xqueue/" "Music/" "workspace/" ".gitconfig" ".subversion/" ".emulator_console_auth_token" ".sdkman/" ".flutter" ".inputrc" "file/" ".nvm/" "knuth.jpg" ".dartServer/" "xtitle-git/" ".PyCharmCE2019.2/" ".python_history" ".yarn/" "Videos/" "gluon-samples/" "dotfiles/" ".zshrc" "package.json" ".emacs.desktop" "MyApplication/" ".node_repl_history" "Android-Sqlite-Database-Tutorial/" "mini/" ".idea/" "android-room-with-a-view/" ".dart/")
+
+ ("/home/golde/workspace/sandbox/" (24085 35222 896869 551000) "./" "README.md" "../")
+
+ ("/home/golde/workspace/convert/metronic/" (24085 32956 602454 167000) "BSA_ENG&MON_20190215.html" "inner.html" "pattern.html" "template.html" "contract.html" "./" "../" "assets/" "ATT-mongo_huseh_opgodol.html" "BSA_LegalEntity_ENG&MON_20191217.html" ".#ATT-mongo_huseh_opgodol.html" "style.css" "profile.html" "pattern_one_side.html" "ҮЦТХТ-Мөнгө-хүссэн-өргөдөл.html" "index.html" "bsa_monjpn.html" "huuliin_etgeed.html")
+
+ ("/tmp/" (24085 23326 937869 746000) ".X11-unix/" ".ICE-unix/" ".XIM-unix/" ".font-unix/" ".Test-unix/" "systemd-private-93b3b184af3243ceaaf3c01e16cc7d72-systemd-timesyncd.service-og8BZe/" "systemd-private-93b3b184af3243ceaaf3c01e16cc7d72-systemd-logind.service-YFPeRf/" "wpa_ctrl_576-1" ".X1024-lock" "systemd-private-93b3b184af3243ceaaf3c01e16cc7d72-upower.service-jDsDRf/" "systemd-private-93b3b184af3243ceaaf3c01e16cc7d72-colord.service-8Zfgbg/" ".X0-lock" "tracker-extract-files.1000/" "Temp-69efa518-81e0-4daf-9baf-d77b69023298/" "Temp-64d491fb-6338-46f3-89ca-0ade5622584e/" "babel-x9rKGf/" "!home!golde!workspace!work!2020!january!2020_01_08.org~" "hsperfdata_golde/" "tomcat.1931577949071516771.9090/" "!home!golde!workspace!spring!log4j!src!main!resources!application.properties~" "systemd-private-93b3b184af3243ceaaf3c01e16cc7d72-postgresql.service-jQNPAg/" "tomcat.5374493418189626500.9090/" "tomcat-docbase.1784286151544065144.9090/" "mozilla_golde0/" "!home!golde!workspace!convert!metronic!ATT-mongo_huseh_opgodol.html~" "#!home!golde!workspace!convert!metronic!ATT-mongo_huseh_opgodol.html#" "../" "./")
+
+ ("/home/golde/.emacs.d/" (24085 23320 314265 346000) "dictionaries/" "emacs-goodies-el/" "idlwave/" "eshell/" "init.el" "smex-items" "neotree/" "./" "../" "auto-save-list/" "elpa/" ".emacs.desktop.lock" "init.el~" "elisp/" "recentf" "network-security.data" "session.10f61e78e7e79271be15692254969524300000009430072" "session.1021da141d8c30a1ad157163880214184000000008850071" "ido.last" "session.10e83df996d4f748ba157426711440389000000008850069" "org-clock-save.el" ".emacs.desktop" "ac-comphist.dat")
+
+ ("/home/golde/Downloads/" (24085 22776 770315 759000) "apache-maven-3.6.3/" "ubuntu-18.04.3-desktop-amd64.iso.part" "mysql.tar.gz" "ubuntu-18.04.3-desktop-amd64.iso" "Olga Filipova - Learning Vue.js 2-Packt Publishing (2016).pdf" "idea-IC-192.6603.28/" "Bonnie Eisenman - Learning React Native_ Building Native Mobile Apps with JavaScript-O'Reilly Media (2015).pdf" "postgresql-jdbc.tar.gz" "proof.mp4" "log4j-users-guide.pdf" "BSA_MONJPN-_JPN-MGL__edited_FINAL.html" "vue-cli/" "patch_mn_classical_support_sw.diff" "dropbox/" "Crypto_Encryption.tex~" "vue-cli.tar.gz" "Crypto_common.tex~" "dict-mn.oxt" ".~lock.Шинжилгээ зохиомж.docx#" "tex-ref.pdf" "maven-3.6.3-1-any.pkg.tar.xz" "ideaIC-2019.2.2.tar.gz" "Vipul A M, Prathamesh Sonpatki - ReactJS by Example_ Building Modern Web Applications with React_ Get up and running with ReactJS by developing five cutting-edge and responsive projects-Packt Publishi.pdf" "de.robv.android.xposed.installer_v33_36570c.apk" "mysql/" "SEEDUbuntu-16.04-32bit/" "apache-maven-3.6.3-bin.tar.gz" "themeforest-4021469-metronic-responsive-admin-dashboard-template.zip" "android-studio/" "javafx-sdk-13/" "postgresql-jdbc/" "pycharm-community-2019.2.3.tar.gz" "(Sams Teach Yourself) Dave Taylor, James C., Jr. Armstrong - Teach Yourself UNIX in 24 Hours-Sams (1997).pdf" "../" "./")
+
+ ("/home/golde/tmp/" (24084 25794 39631 953000) "sed.txt" "sol.sh" "local/" "in.2.txt" "out.4.txt" "out.2.txt" "out.8.txt" "idea.txt" "in.3.txt" "out.10.txt" "tmp" "2a.c" "in.6.txt" "out.3.txt" "out.1.txt" "./" "162.txt" "10.txt" "../" "in.9.txt" "in.8.txt" "auto/" "out.7.txt" "out.6.txt" "in.7.txt" "1.txt" "divide-conquer.tex" "in.5.txt" "out.9.txt" "in.4.txt" "in.1.txt" "out.5.txt" "aa.c" "in.10.txt" ".idea/" "submission.txt")
+
+ ("/home/golde/workspace/work/2020/january/" (24085 14902 702554 965000) "2020_01_06.org" "./" "../" "2020_01_08.org" "2020_01_07.org")
+
+ ("/home/golde/workspace/convert/" (24085 22776 770315 759000) "ATT-mongo_huseh_opgodol.pdf" "BSA_LegalEntity_ENG&MON_20191217.docx" "metronic/" "BSA_huuliinetgeed_(Mon).docx" "./" "../" "BSA_MONJPN (JPN MGL)_edited_FINAL.docx" "BSA_ENG&MON_20190215.docx" "ҮЦТХТ-Мөнгө-хүссэн-өргөдөл.pdf")
+
+ ("/home/golde/workspace/" (24085 21759 672372 445000) "work/" "spring/" "vuejs/" "./" "README.md" "../" "convert/" "sandbox/")
+
+ ("/home/golde/workspace/spring/example-project/src/main/resources/" (24081 57452 499185 992000) "application.properties" "./" "../" "templates/" ".gitignore")
+
+ ("/home/golde/workspace/spring/log4j/src/main/resources/" (24085 15365 206468 168000) "application.properties" "./" "../")
+
+ ("/home/golde/workspace/work/2020/" (24085 10491 185059 728000) "january/" "./" "../")
+
+ ("/home/golde/workspace/work/" (24085 10629 651413 549000) "./" "../" "2020/")
+
+ ("/home/golde/workspace/work/2020_01_07/" (24084 17716 216425 436000) "./" "../" "README.org")
+
+ ("/home/golde/Dropbox/hicheel4_A/seed/project/doc/pdf/" (24058 63420 205263 221000) "t.log" "./" "../" "t.out" "report_draft.pdf" "auto/" "t.tex" "t.toc" "t.aux")
+
+ ("/home/golde/workspace/spring/log4j/src/main/java/mn/invescore/ailab/los/logging/" (24084 13131 874945 619000) "./" "../" "Example.java")
+
+ ("/home/golde/workspace/spring/" (24084 10321 969161 714000) "example-project/" "springboot-change-loglevel-runtime/" "log4j/" "./" "README.md" "../" "spring-boot/" "gs-spring-boot/")
+
+ ("/home/" (23925 24094 104600 581000) "./" "../" "golde/")
+
+ ("/home/golde/Documents/" (24078 1361 393052 814000) "./" "../" "panel/")
+
+ ("/home/golde/workspace/spring/log4j/" (24084 9941 339297 235000) "target/" "src/" "./" "../" "pom.xml")
+
+ ("/home/golde/workspace/spring/gs-spring-boot/initial/" (24080 23034 487571 854000) "target/" "gradlew" ".mvn/" "gradlew.bat" "src/" "build/" "./" "../" "mvnw.cmd" "pom.xml" ".gradle/" "mvnw" "build.gradle" "gradle/")
+
+ ("/home/golde/workspace/spring/gs-spring-boot/" (24080 21993 919043 619000) "LICENSE.writing.txt" "push-to-pws/" ".git/" ".travis.yml" "README.adoc" "LICENSE.code.txt" "./" "../" "complete/" "CONTRIBUTING.adoc" "initial/" "test/" ".gitignore")
+
+ ("/home/golde/workspace/spring/spring-boot/" (24080 8659 133820 87000) "spring-boot-project/" "ci/" "git/" ".git/" ".mvn/" "eclipse/" "src/" "README.adoc" ".editorconfig" "./" "CODE_OF_CONDUCT.adoc" "../" "mvnw.cmd" "pom.xml" "mvnw" ".bomr/" ".settings-template.xml" "CONTRIBUTING.adoc" "spring-boot-tests/" "SUPPORT.adoc" "LICENSE.txt" "idea/" ".github/" ".gitignore")
+
+ ("/home/golde/workspace/work/2020_01_06/" (24083 62175 125334 322000) "./" "../" "README.org")
+
+ ("/home/golde/workspace/spring/example-project/src/main/java/mn/invescore/ailab/los/example/model/" (24083 59811 265290 246000) "Book.java" "BaseModelInterface.java" "./" "../" "BaseModel.java")
+
+ ("/home/golde/workspace/work/2019_01_06/" (24083 55440 360005 655000) "./" "../" "README.org")
+
+ ("/home/golde/Visual/lab4/src/midterm/" (24040 20274 852062 9000) "./" "../" "Country.java" "TreeViewHelper.java" "Main.java")
+
+ ("/home/golde/Dropbox/hicheel4_A/thesis/doc/pdf/" (24049 60269 314915 906000) "main.lol" "abstract.tex" "main.lot" "diplom.pdf" "dics.sty" "main.log" "main-pre.tex" "abstract.log" "main.tex" "./" "../" "auto/" "abstract.aux" "main.toc" "main.nlo" "main.out" "main.aux" "main-pre.aux" "main.lof")
+
+ ("/home/golde/workspace/spring/springboot-change-loglevel-runtime/src/main/java/se/roger/" (24082 44465 501260 661000) "App.java" "./" "../")
+
+ ("/home/golde/Mobile/final/app/src/main/java/mn/num/allinone/" (24054 60098 167103 812000) "ContactsRecyclerAdapter.java" "FormActivity.java" "Contacts.java" "Book.java" "./" "../" "User.java" "DetailActivity.java" "MainActivity.java" "RecyclerViewFragment.java" "ContactsViewHolder.java")
+
+ ("/home/golde/Mobile/lab5/app/src/main/java/mn/num/edu/myapp/" (23971 63694 892041 52000) "DatabaseHelper.java" "SignUpActivity.java" "UserInfoActivity.java" "./" "../" "User.java" "ChangePasswordActivity.java" "MainActivity.java")
+
+ ("/home/golde/Mobile/lab7/app/src/main/java/mn/num/edu/weather/" (24054 52860 516950 6000) "tasks/" "./" "../" "adapters/" "fragments/" "model/" "MainActivity.java")
+
+ ("/home/golde/Mobile/lab7/app/src/main/java/mn/num/edu/weather/adapters/" (23998 53870 299316 88000) "WeatherRecyclerAdapter.java" "./" "../" "ViewPagerAdapter.java")
+
+ ("/home/golde/Mobile/lab5/app/src/main/" (24054 58891 157952 885000) "res/" "java/" "./" "AndroidManifest.xml" "../")
+
+ ("/home/golde/Mobile/lab7/app/src/main/res/layout/" (23998 63088 121708 777000) "activity_main.xml" "./" "../" "fragment_recycler_view.xml" "list_row.xml")
+
+ ("/home/golde/Mobile/MyApplication3/app/src/main/res/layout/" (24054 55544 226140 108000) "activity_main.xml" "./" "../" "content_main.xml")
+
+ ("/home/golde/Mobile/lab4/app/src/main/res/layout/" (23960 16618 124012 950000) "activity_main.xml" "./" "../")
+
+ ("/home/golde/Mobile/data/app/src/main/java/mn/num/edu/myapplication/" (24054 58898 134145 214000) "NameProvider.java" "DatabaseHelper.java" "SignUpActivity.java" "UserInfoActivity.java" "./" "../" "User.java" "ChangePasswordActivity.java" "MainActivity.java")
+
+ ("/home/golde/Mobile/data/app/src/main/res/layout/" (23964 21003 879546 63000) "activity_main.xml" "./" "activity_change_password.xml" "../" "activity_sign_up.xml" "activity_user_info.xml")
+
+ ("/home/golde/Dropbox/hicheel4_A/thesis/django/" (24078 855 302615 925000) ".git/" "django_reference_sheet.pdf" "hint.txt" "./" "mysite/" "README.md" "../" "isolate/" "requirements.txt" ".idea/")
+
+ ("/home/golde/securedMessageApp/app/src/main/java/com/example/securedmessageapp/" (24052 64832 313063 905000) "Fragments/" "StartActivity.java" "LoginActivity.java" "Adapter/" "./" "../" "Model/" "RegisterActivity.java" "MessageActivity.java" "MainActivity.java")
+
+ ("/home/golde/workspace/spring/log4j/src/main/java/mn/invescore/ailab/los/" (24082 35921 80640 853000) "logging/" "./" "../")
+
+ ("/home/golde/workspace/spring/log4j/src/main/java/mn/invescore/ailab/" (24082 35921 80640 853000) "los/" "./" "../")
+
+ ("/home/golde/workspace/spring/log4j/src/main/java/mn/invescore/" (24082 35921 80640 853000) "ailab/" "./" "../")
+
+ ("/home/golde/workspace/spring/log4j/src/main/java/mn/" (24082 35921 80640 853000) "./" "../" "invescore/")
+
+ ("/home/golde/workspace/spring/log4j/src/main/java/" (24082 35921 80640 853000) "mn/" "./" "../")
+
+ ("/home/golde/workspace/spring/log4j/src/main/" (24082 35946 933272 104000) "java/" "./" "resources/" "../")
+
+ ("/home/golde/workspace/spring/log4j/src/" (24082 35921 80640 853000) "./" "../" "main/")
+
+ ("/home/golde/workspace/spring/springboot-change-loglevel-runtime/src/main/" (24081 58287 220919 658000) "java/" "./" "resources/" "../")
+
+ ("/home/golde/workspace/spring/springboot-change-loglevel-runtime/src/" (24081 58290 414297 482000) "./" "../" "main/")
+
+ ("/home/golde/workspace/spring/springboot-change-loglevel-runtime/" (24081 58992 718814 655000) "settings.gradle" "target/" "gradlew" ".git/" "gradlew.bat" "src/" "build/" "./" "README.md" "../" "pom.xml" ".gradle/" "build.gradle" "gradle/" ".gitignore" ".idea/")
+
+ ("/home/golde/workspace/spring/example-project/src/main/java/mn/invescore/ailab/los/example/controller/" (24082 34260 518506 647000) "ExampleController.java" "./" "../" "AbstractController.java")
+
+ ("/home/golde/workspace/spring/example-project/src/main/java/mn/invescore/ailab/los/example/" (24081 55907 731228 85000) "service/" "component/" "controller/" "repository/" "exception/" "./" "../" "Utils.java" "ExampleProjectApplication.java" "config/" "model/")
+
+ ("/home/golde/workspace/spring/example-project/" (24081 60523 933706 882000) "target/" ".git/" ".mvn/" "src/" "./" "README.md" "../" "mvnw.cmd" "pom.xml" "mvnw" ".gitignore")
+
+ ("/home/golde/workspace/spring/springboot-change-loglevel-runtime/src/main/java/se/" (24080 9305 128989 629000) "./" "../" "roger/")
+
+ ("/home/golde/workspace/spring/springboot-change-loglevel-runtime/src/main/java/" (24080 9305 128989 629000) "./" "../" "se/")
+
+ ("/home/golde/workspace/spring/example-project/src/main/java/mn/invescore/ailab/los/" (24080 6416 758824 594000) "example/" "./" "../")
+
+ ("/home/golde/workspace/spring/example-project/src/main/java/mn/invescore/ailab/" (24080 6416 758824 594000) "los/" "./" "../")
+
+ ("/home/golde/workspace/spring/example-project/src/main/java/mn/invescore/" (24080 6416 758824 594000) "ailab/" "./" "../")
+
+ ("/home/golde/workspace/spring/example-project/src/main/java/mn/" (24080 6416 758824 594000) "./" "../" "invescore/")
+
+ ("/home/golde/workspace/spring/example-project/src/main/java/" (24080 6416 758824 594000) "mn/" "./" "../")
+
+ ("/home/golde/workspace/spring/example-project/src/main/resources/templates/layouts/" (24080 6628 564753 762000) "app.html" "./" "../")
+
+ ("/home/golde/workspace/spring/example-project/src/main/resources/templates/fragments/" (24080 6666 110660 864000) "./" "../" "pagination.html")
+
+ ("/home/golde/workspace/spring/example-project/src/" (24080 6416 765490 833000) "./" "../" "main/" "test/")
+
+ ("/home/golde/workspace/spring/example-project/src/main/" (24080 6416 762157 714000) "java/" "./" "resources/" "../")
+
+ ("/home/golde/workspace/spring/example-project/src/main/resources/templates/" (24080 6416 765490 833000) "example/" "./" "../" "layouts/" "fragments/")
+
+ ("/home/golde/workspace/spring/example-project/src/main/resources/templates/example/" (24080 6703 715813 557000) "edit.html" "./" "../" "_form.html" "view.html" "index-vue.html" "create.html" "index.html")
+
+ ("/home/golde/Dropbox/" (24080 6270 153299 392000) "powerpoint/" "paper/" "translate/" "erd.png" "gegee/" "gittest/" "mstr_thesis/" "academic/" "keys/" "english3kr.pdf" "./" "other/" "hicheel3_A/" "m_thesis/" "../" ".dropbox" "python/" "backup/" "latexPPT/" ".dropbox.cache/" "hicheel4_A/" "hicheel3_B/")
+
+ ("/home/golde/Dropbox/gittest/" (24080 5678 690994 996000) "hint.txt" "./" "../")
+
+ ("/home/golde/Dropbox/workspace/vuejs/method2/" (24079 1536 892791 311000) "script.js" "./" "../" "style.css" "index.html")
+
+ ("/home/golde/Dropbox/workspace/vuejs/hello-world/src/components/" (24078 60859 891860 265000) "./" "../" "HelloWorld.vue")
+
+ ("/home/golde/Dropbox/workspace/vuejs/hello-world/" (24078 61316 176250 574000) "package-lock.json" ".git/" "src/" "node_modules/" "./" "README.md" "../" "dist/" "babel.config.js" "package.json" ".gitignore" "public/")
+
+ ("/home/golde/Dropbox/workspace/" (24078 61381 218770 981000) "vuejs/" "./" "README.md" "../")
+
+ ("/home/golde/Dropbox/workspace/vuejs/hello-world/src/" (24078 60677 967358 65000) "./" "../" "assets/" "main.js" "components/" "App.vue")
+
+ ("/home/golde/Dropbox/workspace/vuejs/" (24078 59443 887670 382000) "hello-world/" "./" "../")
+
+ ("/home/golde/Mobile/lab8/app/src/main/java/mn/num/maps/" (24054 11489 925738 707000) "./" "../" "LocationService.java" "MapsActivity.java")
+
+ ("/home/golde/Mobile/lab6/app/src/main/res/values/" (23992 24430 440041 34000) "styles.xml" "./" "../" "colors.xml" "strings.xml")
+
+ ("/home/golde/Dropbox/hicheel4_A/thesis/django/mysite/media/" (24054 18942 880643 188000) "sol.sh" "submit.py" "xqueue.py" "problem_1A/" "./" "../" "__pycache__/" "problem_2A/" "duplicate.c" "login.py" "manage.py" "write")
+
+ ("/home/golde/Mobile/lab4/app/src/main/java/mn/num/edu/authentication/" (23960 16834 577082 37000) "./" "../" "MainActivity.java")
+
+ ("/home/golde/Mobile/lab7/app/src/main/java/mn/num/edu/weather/fragments/" (23998 58159 214962 43000) "./" "../" "RecyclerViewFragment.java")
+
+ ("/home/golde/Mobile/lab6/app/src/main/res/layout/" (23980 1402 326482 987000) "fragment_info.xml" "activity_main.xml" "./" "../" "fragment_teacher.xml" "fragment_student.xml")
+
+ ("/home/golde/Mobile/lab6/app/src/main/java/mn/num/edu/fragment/" (24051 39234 670453 680000) "InfoFragment.java" "TeacherFragment.java" "StudentFragment.java" "./" "../" "MainActivity.java")
+
+ ("/home/golde/Mobile/lab3/app/src/main/java/mn/num/edu/activity/" (24018 41248 246723 500000) "about/" "ExampleActivity.java" "./" "../" "rating/" "settings/" "MainActivity.java")
+
+ ("/home/golde/Dropbox/hicheel4_A/thesis/doc/ppt/" (24054 21686 521466 277000) "proof.mp4" "./" "../" "beamer2thesis.pdf" "ppt.nav" "auto/" "ppt.log" "ppt.tex" "ppt.toc" "ppt.pdf" "ppt.out" "ppt.snm" "ppt.aux")
+
+ ("/home/golde/Dropbox/latexPPT/ochroo/lec3/" (23928 64952 812447 516000) "bootloader.webp" "bootloader.png" "linux_boot_process.out" "linux_boot_process.snm" "bootp.png" "gpt.png" "./" "linux_boot_process.aux" "ami_bios.png" "../" "linux_boot_process.nav" "auto/" "linux_boot_process.pdf" "mbr.jpg" "linux_boot_process.log" "linux_boot_process.tex" "linux_boot_process.toc")
+
+ ("/home/golde/flutter/senorita/lib/" (24067 33866 951016 812000) "./" "../" "main.dart")
+
+ ("/home/golde/flutter/senorita/android/" (24067 33744 589046 946000) "settings.gradle" "gradlew" "gradlew.bat" "senorita_android.iml" "./" "../" "key.properties" "local.properties" ".gradle/" "gradle.properties" "app/" "build.gradle" "gradle/" ".gitignore")
+
+ ("/home/golde/Dropbox/mstr_thesis/" (24068 58741 697480 737000) "main.pdf" "dics.sty" "main-pre.tex" "main.tex" "./" "../")
+
+ ("/home/golde/Dropbox/translate/clrs3e-text/" (24070 6350 915154 871000) "approximation.aux" "veb-trees.aux" "fmatter.tex" "preface.aux" "dynamic-prog.tex" "multithreaded.aux" "toc.aux" "book.ind" "part-appendix.aux" "orders.log" "shortest-paths.tex" "biblio.aux" "quicksort.tex" "index-dividers.aux" "part-sorting.aux" "clr.cls" "book.master" "clrscode3e.sty" "errors03122019All.txt" "mst.aux" "part-ads.aux" "book.ilg" "orders.tex" "shortest-paths.aux" "part-foundations.tex" "part-appendix.tex" "pageiv.tex" "pagei.tex" "book.toc" "sets-etc.aux" "pageii.tex" "linear-time-sorting.tex" "greedy.aux" "binary-search-trees.tex" "binary-search-trees.aux" "veb-trees.tex" "figures/" "part-graphs.tex" "index.aux" "multithreaded.tex" "part-ads.tex" "book.pdf" "book.log" "part-sorting.tex" "sums.tex" "toc.tex" "divide-conquer.log" "part-advanced-design.tex" "errorsAnalysis.txt" "biblio.tex" "index-dividers.tex" "mst.tex" "matrices.tex" "matrix.tex" "./" "matrices.aux" "book.aux" "matrix.aux" "part-ds.tex" "../" "part-selected.aux" "part-advanced-design.aux" "clrs.bst" "part-ads.log" "part-selected.tex" "string-matching.aux" "introduction.tex" "sums.aux" "book.tex" "hyphenation.cfg" "auto/" "fib-heaps.tex" "fmatter.aux" "part-foundations.aux" "linear-time-sorting.aux" "orders.aux" "divide-conquer.tex" "hashing.aux" "sets-etc.tex" "book.bib" "dynamic-prog.aux" "windex.sty" "quicksort.aux" "role.aux" "role.tex" "missfont.log" "count.tex" "clr" "count.aux" "divide-conquer.aux" "Makefile" "approximation.tex" "number-theory.tex" "greedy.tex" "part-ds.aux" "introduction.aux" "part-foundations.log" "clrmac.sty" "windex/" "number-theory.aux" "part-graphs.aux" "preface.tex" "fib-heaps.aux" "book.idx" "role.log" "string-matching.tex" "index.tex" "texput.log" "hashing.tex" "clrtimes.sty")
+
+ ("/home/golde/Music/" (24072 28336 536383 945000) "tegshontsogt.c" "./" "Doc20191128190347.pdf" "../" "Doc20191128190310.pdf" "Doc20191128190755.pdf")
+
+ ("/home/golde/Dropbox/translate/" (24068 45581 962535 186000) "clrs3e-text/" "review.txt" "./" "../" "back.zip" "Chapter3etsets.docx" "Chapter3part1.docx" "Бүлэг 4 орчуулга төгсгөл.docx" "[Cormen-AL2011]Introduction_To_Algorithms-A3.pdf" "Chapter3part2.docx")
+
+ ("/home/golde/Dropbox/hicheel4_A/visual/final/" (24040 19683 602098 367000) "ee.png" "aa.png" "t.log" "t.pdf" "num.png" "f_login.png" "database.txt" "sg30.sdv" "bb.png" "f_patient.png" "admin.png" "doctor_detail.png" "jj.png" "f_time_list.png" "app.png" "cc.png" "sg30.thm" "bak.tex" "f_main.png" "./" "README.md" "../" "f_patient_list.png" "hh.png" "t.out" "f_time.png" "history_detail.png" "auto/" "f_doctor.png" "dataflow.png" "gg.png" "app_detail.png" "admin_detail.png" "ff.png" "t.tex" "t.toc" "patient_detail.png" "f_burtgel.png" "dd.png" "ii.png" "patient.png" "pair.png" "f_home.png" "f_time_list.jpg" "history.png" "t.aux" "f_doctor_add.png" "visual.docx")
+
+ ("/home/golde/Dropbox/hicheel4_A/visual/" (24067 35158 222056 105000) "home_works.txt" "lab6/" "SimpleCalculator/" "lab5/" "./" "../" "cross/" "lab4/" "Learn/" "javafx.pdf" "final/")
+
+ ("/home/golde/Dropbox/m_thesis/" (24068 57636 659323 665000) "img3.png" "main.pdf" "img1.png" "img2.png" "dics.sty" "main.log" "main-pre.tex" "main.tex" "./" "../" "report.pdf" "Судалгааны ажил.docx" "main.toc" "main.nlo" "main.out" "main.aux" "main-pre.aux" "main.lof")
+
+ ("/home/golde/Downloads/m_thesis/" (24068 56300 510775 919000) "img3.png" "main.pdf" "img1.png" "img2.png" "dics.sty" "main.log" "main-pre.tex" "main.tex" "./" "../" "Судалгааны ажил.docx" "main.toc" "main.nlo" "main.out" "main.aux" "main-pre.aux" "main.lof")
+
+ ("/home/golde/Dropbox/backup/" (24068 44413 213405 411000) "sed.txt" "orders.tex" "./" "../" "divide-conquer.tex")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

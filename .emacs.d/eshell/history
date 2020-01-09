@@ -1,0 +1,23 @@
+workon venv
+cd ~/.virtualenvs/venv/bin/
+ls
+activate
+./activate
+sudo ./activate
+sudo ./activate
+ls
+cd cms/
+grep -nr "/dataset"
+adb connect 192.168.1.2
+l
+ls
+react-native run-android
+cd android/
+cat local.proprties
+l
+ls
+cd ..
+source ~/.bashrc 
+workon venv
+yarn start
+yarn kstart
